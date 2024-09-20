@@ -1,0 +1,43 @@
+public class NumberCube{
+
+	public int toss()
+	{ /* implementation not shown */ }
+
+	public static int[] getCubeTosses(NumberCube cube, int numTosses){
+		int[] tosses = new int[numTosses];
+		for (int a = 0; a < tosses.length; a++){
+			tosses[a] = toss();
+		}
+		return tosses;
+	}
+	
+	public static int getLongestRun(int [] values){
+		int count = 0; int max = 0; int indexHolder = -1;
+		for (int a = 0; a < values.length - 1; a++){
+			if (values[a] == values[a+1]){
+				count++;
+			}
+			if (count > max){
+				max = count;
+				indexHolder = a;
+				count = 0;
+			}
+		}
+		return indexHolder;
+	}
+}
+
+class BatteryCharger{
+	private int[] rateTable;
+
+	private int getChargingCost(int startHour, int chargeTime){
+		int sum = 0, temp = 0;
+		for (int a = startHour; a < startHour + chargeTime; a++){
+			temp = a;
+			if (temp > 23)
+				temp -= 24;
+			sum += rateTable[temp];	
+		}
+		return sum;
+	}
+}

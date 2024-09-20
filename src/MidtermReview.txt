@@ -1,0 +1,46 @@
+1. 22
+2. Instead of 8, you get 3
+3. school
+4. x = 5, y = -50
+5. int dice = (int)(Math.random() * 6) + 1;
+6a. (int)(x+0.5);
+6b. (int)(x-0.5);
+7a. A constructor or method with different parameters but has the same name
+7b. A declaration of public plus class name used for creation of an instance of a class
+7c. A method used to change the values of fields
+7d. A method used to access the values of fields
+8. The compareTo() method compares the value of two strings to see which one would come first in the dictionary. It returns an int value, positive if the first string comes before the second, negative if the opposite, and 0 if the strings are the same
+8-TryThese. neg, pos, zero
+9. It returns a boolean value to test if two string values are exactly the same
+10. Using == on a string compares their place in memory
+10-TryThese. true, false, false, true, true
+11. I know
+12. I know
+13. When all instances of a class will be the same. For methods, it is static when it is nonreliant on instance variables
+14. Casting is a term used when a variable is changed into another similar one, like turning an int into a double. It is used when you need to change the amount of precision needed.
+15. Camel Case Notation
+16. While, Do-While, For
+17. If, Else-If, Else, Switch
+18. Parentheses are used for parameters, order of operations, and loop conditions. Brackets are used to close bodies of methods, constructors, and classes. Square brackets are used when dealing with arrays. Comments are used to omit certain lines of code from the compiler.
+19. count--; count -= 1; count = count - 1;
+20. // or /* */ or /** */
+21. A constructor with no parameters 
+22. Before the class declaration
+23. void
+24. double usually
+25. x = -8.0, y = 16.0;
+26. 16
+27. 1
+28. //Check Document
+29. I know
+29-TryThese. nothing returned, string returned, int returned, double returned
+30. public Student(String name, double gpa, int age){}
+31. public String doSomething(int pos, String word){}
+32. I know
+33. I know
+34. I know
+35. I know
+36. I know
+37. I know
+
+
